@@ -9,6 +9,7 @@ const assets = {
   cat: "/manus-storage/apology-cat-sad_6f06e91c.png",
   floral: "/manus-storage/apology-letter-floral_eea69303.png",
   mark: "/manus-storage/apology-heart-mark_a3c0678f.png",
+  qr: "/manus-storage/nandita-apology-heart-qr_f8f7f2a7.png",
 };
 
 const apologyPoints = [
@@ -154,10 +155,10 @@ export function LetterPage() {
         {!expanded ? <>
           <p className="letter-tease">For hurting you and making you feel upset, I'm truly sorry.</p>
           <button className="reveal-button" onClick={() => setExpanded(true)}>read the whole thing <ArrowRight size={15} /></button>
-        </> : <p className="letter-body">For hurting you and making you feel upset, I'm truly sorry. I never wanted to be the reason behind your tears or your silence. You matter to me more than I always manage to show, and I hate that I let you down. I promise to grow, to listen, and to be better for you every single day. Thank you for staying, for caring, and for being you. I'm really trying... and I hope you can forgive me.</p>}
+        </> : <p className="letter-body">Hey Nandita, kal ki baat ke baare mein soch raha tha. I'm sorry agar meri baaton ya actions se tumhe laga ki main tum par kuch force kar raha hoon ya tumhari kindness ko galat samajh raha hoon. Mera intention tumhe uncomfortable karna kabhi nahi tha.<br /><br />Sach bolun toh tum mujhe bahut pasand ho, aur shayad isi wajah se main kabhi-kabhi cheezon ko zyada seriously le leta hoon. Tumhari smile, tumhara attitude, aur tumhara apna little world—there's something about you that genuinely pulls me in. But I also understand ki meri feelings tumhari responsibility nahi hain, aur tumhe same feel karna zaroori nahi hai.<br /><br />Main tumse attention ya chance maangne nahi aaya hoon. Bas itna kehna tha ki agar meri energy kabhi zyada ho gayi, I'm sorry. I respect what you feel, and I'll respect your space too. You're still someone I think is really special—bas ab bina kisi expectation ke.<br /><br />Aur haan, tumne bola ki tum mujhe like nahi karti… fair enough. Tumhari honesty attractive toh hai, I'll give you that. Take care.</p>}
         <div className="letter-signoff">always trying,<br /><strong>me ♡</strong></div>
       </div>
     </section>
-    <Link href="/" className="start-over">read it again from the top ↗</Link>
+    <div className="letter-actions"><Link href="/" className="start-over">read it again from the top ↗</Link><a className="qr-download" href={assets.qr} download="nandita-apology-heart-qr.png">save the little heart QR ↓</a></div>
   </StoryFrame>;
 }

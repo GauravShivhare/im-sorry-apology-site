@@ -4,12 +4,12 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import Home, { AcknowledgmentPage, FromHeartPage, LetterPage, LittleThingsPage, WelcomePage } from "./pages/Home";
+import { AcknowledgmentPage, FromHeartPage, LetterPage, LittleThingsPage, WelcomePage } from "./pages/Home";
 import NotFound from "./pages/NotFound";
 
 function Router() {
   return <Switch>
-    <Route path="/" component={Home} />
+    <Route path="/" component={WelcomePage} />
     <Route path="/welcome" component={WelcomePage} />
     <Route path="/acknowledgment" component={AcknowledgmentPage} />
     <Route path="/little-things" component={LittleThingsPage} />
