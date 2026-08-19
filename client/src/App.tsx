@@ -1,4 +1,4 @@
-/* Style reminder: Route wrapper for a soft-girl kawaii apology story; preserve narrow portrait pacing and calm chapter transitions. */
+/* Main application router */
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Route, Switch } from "wouter";
