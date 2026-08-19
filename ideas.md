@@ -1,5 +1,5 @@
-## Design notes
+## Archived design notes
 
-This file contained historical design direction and brand ideation. It has been archived on the neutralize-site branch to avoid exposing personal or theme-specific details in public presentation.
+The original design notes for the project contained a theme-specific direction. For public presentation, those details have been moved to the main branch and this branch keeps a neutral summary.
 
-(Original content preserved in main branch.)
+If you need to review the original design notes, check the main branch history.
