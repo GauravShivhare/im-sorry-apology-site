@@ -60,3 +60,12 @@ A hand-drawn coral heart with a lavender bandage across one corner. The mark is 
 
 ### Signature Brand Color
 Bandage Coral `#E87578` — the visual shorthand for a hurt that is being cared for, not hidden.
+
+## Accessibility & UX Guardrails
+
+- Keep all primary interactions keyboard reachable and visibly focusable.
+- Preserve readable contrast for body text and actionable controls.
+- Provide meaningful accessible labels for decorative or interactive illustrations.
+- Respect `prefers-reduced-motion` so the emotional flow remains comfortable without animation.
+- Keep tap targets comfortably sized on mobile and avoid interactions that depend only on hover.
+- Ensure the apology narrative remains understandable when decorative effects or images fail to load.
